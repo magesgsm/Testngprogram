@@ -13,13 +13,12 @@ public class AssertClass extends Base {
 		String currentUrl = getCurrentUrl(driver);
 		System.out.println(currentUrl);
 		boolean contains = currentUrl.contains("www");
-		
 		Assert.assertTrue("verify", contains);
 		WebElement email = driver.findElement(By.id("email"));
 		txtbox(email, "mages");
-		
+	
 		String attribute = getAttribute(email, "value");
-	    Assert.assertEquals("verify username", attribute, "mage");
+	    Assert.assertEquals("verify username", attribute, "mages");
 		//	Assert.assertTrue(message, condition);
 		WebElement pass = driver.findElement(By.id("pass"));
 		txtbox(pass, "123456789");

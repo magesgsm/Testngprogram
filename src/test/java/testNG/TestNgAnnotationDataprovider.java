@@ -25,9 +25,9 @@ public class TestNgAnnotationDataprovider extends Base {
 		return new Object[] []{
 			{"mages","78974"},
 			{"raja","wertyui"},
-			{"guna","dfghj"},
+			{"guna","dfghj"}
 		};
 		}
-}
+} 
 
 

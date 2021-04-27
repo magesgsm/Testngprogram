@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import com.beust.jcommander.Parameter;
 
 public class TestNGCrossBrowser {
-	WebDriver driver;
+	WebDriver driver; 
 	@Parameters({"browser"})
 	@Test
 	private void crossBrowser(String s1) {

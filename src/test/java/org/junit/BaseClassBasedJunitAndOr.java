@@ -8,7 +8,6 @@ import org.seleniumhq.jetty9.server.AsyncNCSARequestLog;
 import pageObjectClass.PagesObjectFaceBookLogin;
 
 public class BaseClassBasedJunitAndOr extends Base {
-	 
 	@BeforeClass
 	public static void testCase1() {
 		browserLaunch();

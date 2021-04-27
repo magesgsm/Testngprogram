@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-  <parameter name="username" value="mageswaran"></parameter>
+  <parameter name="username" value="mageswaran"/>
   <parameter name="password" value="wertyuiop"></parameter>
     <classes>
       <class name="testNG.TestNgParameterTest"/>
